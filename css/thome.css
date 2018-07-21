@@ -1,0 +1,119 @@
+html {
+  width: 100vw;
+  height: 100vw;
+}
+body {
+  width = 100%;
+  background-color: #262c38;
+}
+.navBar {
+  width: 100%;
+  color: #536992;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hline {
+  width: 100%;
+  height: 1px;
+  background-color: #536992;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+  button {
+  width: 26%;
+  padding: 12%;
+  border: 1px;
+  border-radius: 20%;
+  border-color:  #536992;
+  border-style: solid;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  background-color: #262c38;
+  outline: none;
+}
+
+.offline {
+  background-color: #262c38;
+}
+.off {
+  background-color: #2b364b;
+}
+.on {
+  background-color: #536992;
+  color: #2b364b;
+}
+
+.navBar button {
+  background-image: url("../icon/menu.png");
+  background-size: contain;
+  width: 25px;
+  height: 25px;
+  margin: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-style: hidden;
+  padding: 0;
+}
+
+.navbar h1 {
+  margin: auto;
+  text-align: center;
+  width: 90vw;
+}
+
+.close {
+  width: 100%;
+  position: absolute;
+  /* This trasform moves the drawer off canvas. */
+  -webkit-transform: translate(0,-300px);
+  transform: translate(0,-300px);
+  /* Optionally, we animate the drawer. */
+  /* transition: transform 0.3s ease; */
+}
+
+/* .close {
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+} */
+
+.menu {
+  width: 100%;
+  color: #536992;
+  text-align: center;
+}
+.menu p {
+  margin: auto;
+  text-align: center;
+  font-size: 30px;
+  padding-left: 15px;
+  /* margin-bottom: 10px; */
+}
+a {
+  width: 100%;
+  color: #536992;
+  text-decoration: none;
+  font-size: 25px;
+  margin: auto;
+}
+
+.link {
+  width: 100vw;
+  font-size: 25px;
+  margin-top: 15px;
+}
+
+ul {
+  text-align: left;
+  list-style-type: none;
+  padding-left: 15px;
+  margin: auto;
+}
+li {
+  margin-top: 10px;
+}

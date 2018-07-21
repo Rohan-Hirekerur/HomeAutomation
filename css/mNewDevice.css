@@ -1,0 +1,76 @@
+body {
+  max-width: 100vw;
+  max-height: 100vh;
+  width: auto;
+  height: auto;
+  background-color: #2b364b;
+  color: #536992;
+  margin: auto;
+}
+
+.head-bar {
+  background: #536992;
+  height: 7vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.head-bar h1 {
+  text-align: center;
+  margin: auto;
+  color: #2b364b;
+  font-size-adjust: auto;
+  width: 100%;
+}
+
+.card {
+  margin: auto;
+  margin-top: 20vh;
+  padding: 3px 10px;
+  text-align: center;
+}
+.card-reg {
+  margin: auto;
+  margin-top: 27vh;
+  padding: 3px 10px;
+  text-align: center;
+}
+
+.inputs {
+  margin: auto;
+  margin-top: 15px;
+}
+.input-box {
+  width: 90%;
+  background-color: #33405a;
+  color: #536992;
+  padding-left: 10px;
+  height: 5vh;
+  margin: 3px;
+  border: 0;
+}
+
+::placeholder {
+  color: #6b82ac;
+}
+
+a {
+  color: gainsboro;
+  text-decoration: none;
+}
+
+.sign-but {
+  width: 90%;
+  background-color: #536992;
+  color: gainsboro;
+  height: 5vh;
+  padding: 2px;
+  margin: 3px;
+  margin-top: 10px;
+  border: 0;
+}
+
+fieldset {
+  border: 1px solid #536992;
+  padding: 10px;
+}

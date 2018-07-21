@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="../css/mhome.css">
+    <!-- <link rel="stylesheet" media="screen and (min-width: 701px)" href="../css/thome.css">
+    <link rel="stylesheet" media="screen and (min-width: 1301px)" href="../css/phome.css"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <nav id="menu" class="menu close">
+      <h1>Rooms</h1>
+      <div class="hline"></div>
+      <br>
+      <ul>
+        <li><a href="../home.html">Home</a></li>
+        <li><a href="../html/RohanRoom.html">Rohan's Room</a></li>
+        <li><a href="../html/MasterBedroom.html">Master Bedroom</a></li>
+        <li><a href="../html/Other.html">Other</a></li>
+        <li><a href="../html/log.html">Log</a></li>
+      </ul>
+    </nav>
+    <div class="page">
+      <div class="navBar">
+        <button id="menuButton" type="button" name="button"></button>
+        <h1>Home</h1>
+      </div>
+      <div class="hline"></div>
+      <div id="content" class="content">
+        <button class="" type="button" id="MBTube" name="MBTube"></button>
+        <button class="" type="button" id="MBFan" name="MBFan"></button>
+        <button class="" type="button" id="MBTV" name="MBTV"></button>
+        <button class="" type="button" id="Staircase" name="Staircase"></button>
+        <div class="hline"></div>
+        <button class="" type="button" id="YellowLight" name="YellowLight"></button>
+        <button class="" type="button" id="RBTube" name="YellowLight"></button>
+        <button class="" type="button" id="RBFan" name="YellowLight"></button>
+        <button class="" type="button" id="RBLight" name="YellowLight"></button>
+        <button class="" type="button" id="RBSpeaker" name="Speaker"></button>
+        <table class="weather">
+          <p id="temp">Temperature : 0 <span>&#8451;</span> Humidity : 0%</p>
+        </table>
+      </div>
+    </div>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="../js/paho-mqtt.js" type="text/javascript"></script>
+  <script type="text/javascript" src="../js/client.js"></script>
+  <script type="text/javascript" src="../js/home.js"></script>
+
+</html>

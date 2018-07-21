@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Add Device</title>
+    <link rel="stylesheet" media="screen and (max-width: 1000px)" href="../css/mNewDevice.css">
+    <!-- <link rel="stylesheet" media="screen and (min-width: 1001px)"href="../css/newDevice.css"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="head-bar">
+      <h1>New Device</h1>
+    </div>
+    <form class="card"  method="post">
+      <fieldset>
+        <legend>New Device</legend>
+        <div class="inputs">
+          <input id="nickname" class="input-box" type="text" name="nickname" value="" placeholder="Nickname">
+          <input id="command" class="input-box" type="text" name="command" value="" placeholder="command">
+          <input id="status" class="input-box" type="text" name="status" value="" placeholder="status">
+          <input id="LWT" class="input-box" type="text" name="LWT" value="" placeholder="LWT">
+          <input id="On" class="input-box" type="text" name="On" value="" placeholder="On Command">
+          <input id="Off" class="input-box" type="text" name="Off" value="" placeholder="Off command">
+          <input id="Offline" class="input-box" type="text" name="Offline" value="" placeholder="Offline command">
+        </div>
+        <div class="buttons">
+          <input id="submit" class="sign-but" type="submit" name="submit" value="Submit">
+        </div>
+      </fieldset>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+      <script src="../js/paho-mqtt.js" type="text/javascript"></script>
+      <script type="text/javascript" src="../js/client.js"></script>
+      <script type="text/javascript" src="../js/newDevice.js"></script>
+    </form>
+  </body>
+</html>
